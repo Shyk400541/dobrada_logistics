@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * Implements hook_block_view_alter().
+ */
+function dobrada_block_view_alter(array &$build, \Drupal\Core\Block\BlockPluginInterface $block) {
+  switch ($build['#id']) {
+    case 'homevideo':
+      $build['#attached']['library'][] = 'core/drupal.dialog.ajax';
+  }
+}
+
+function dobrada_preprocess_page(&$variables) {
+	//kint($variables);
+  $variables['#attached']['library'][] = 'core/jquery';
+  $variables['#attached']['library'][] = 'dobrada/counter';
+  $variables['#attached']['library'][] = 'dobrada/cr';
+ // $variables['#attached']['library'][] = 'dobrada/jquery.spincrement';
+}
+
+function dobrada_preprocess_block(&$variables) {
+	//kint($variables['elements']['content']['#title']);
+	//print_r($variables['label']);
+	//$variables['label2'] = '<span>sdfisdjf</span>';
+	/*if(!is_array($variables['label'])){
+		
+	}*/
+}
+
+function dobrada_page_attachments(array &$attachments) {
+	kint($attachments);
+	print_r($attachments);
+  // Первый helloworld - название модуля, а второй - название либы из yml файла.
+  $attachments['#attached']['library'][] = 'dobrada/jquery.spincrement';
+}
+
+function dobrada_preprocess_panels_pane(&$vars) {
+	//kint($vars);
+	//print_r($vars);
+}

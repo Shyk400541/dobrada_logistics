@@ -1,0 +1,58 @@
+@media (min-width: 1200px) { .container { width: 100%; } }
+.footer { background-color: #5492db; background-color: linear-gradient(to bottom, #5492db, #2a6cba); margin-top: 0; }
+.footer .region-footer { width: 60%; margin-left: auto; margin-right: auto; color: white; }
+.footer .region-footer #block-descriptionfooter { width: 25%; }
+.footer .region-footer a { color: white; }
+
+section.block-views-blockblocks-home-block-3 { background-color: #f4f4f4; }
+section.block-views-blockblocks-home-block-3 .slick__slider { height: 250px; }
+section.block-views-blockblocks-home-block-3 .slick-list.draggable { width: 60%; position: absolute; top: 15%; left: 50%; padding: 50px 0 0 0 !important; margin-left: -30%; }
+section.block-views-blockblocks-home-block-3 .slick-list.draggable .slick__slide { -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -webkit-transition: all 1s ease-in-out; }
+section.block-views-blockblocks-home-block-3 .slick-list.draggable .slick__slide:hover { -webkit-transform: translate(0, -50px); -moz-transform: translate(0, -50px); -o-transform: translate(0, -50px); }
+
+/*--------------*/
+.video-tour {
+	position: relative;
+}
+
+.video-tour .btn-play {
+    position: absolute;
+    z-index: 3;
+    left: 30%;
+    top: 30%;
+    bottom: auto;
+    right: auto;
+}
+
+.region-header section,
+.region-footer section {
+	float: left
+}
+
+#block-nicemenus {
+	clear: left
+}
+
+.region-footer #block-descriptionfooter {
+	width: 20%;
+}
+
+section.block-block-content0a23b10d-990e-496d-abb5-0dba038fe0c3 {
+	position: absolute;
+    /*height: 700px;*/
+    width: 100%;
+   /* background-image: url(/dobrada_logistics/sites/default/files/30.jpg);*/
+
+}
+
+section.block-block-content0a23b10d-990e-496d-abb5-0dba038fe0c3 .field--item {
+	position: absolute;
+    vertical-align: bottom;
+    top: 40%;
+	color: white;
+}
+
+section.block-block-contentb1e52030-58cd-4ec4-b821-2729c8c40e69 {
+	margin-top: 470px;
+	color: white;
+}
